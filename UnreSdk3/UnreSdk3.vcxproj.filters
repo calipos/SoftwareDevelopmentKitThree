@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\utils">
+      <UniqueIdentifier>{8c5d76e9-a475-4fa6-b327-6af43f9b92eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils\logger">
+      <UniqueIdentifier>{8f40b3b5-1be8-4b40-90c9-3d6f14383a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils\arch">
+      <UniqueIdentifier>{d2163d3e-cf84-4c28-87f9-6af9ada4688c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utils">
+      <UniqueIdentifier>{3de89fe1-1833-4aba-9cbb-ab281e3e7851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utils\logger">
+      <UniqueIdentifier>{7ff9e3c2-c914-4149-a9ed-80e9a65e4f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utils\ioFile">
+      <UniqueIdentifier>{e32dfab3-1f95-4f54-b95b-ab37a113ac0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TEST">
+      <UniqueIdentifier>{3c13a4ca-875c-46ce-9ffe-224b5aeea400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils\ioFile">
+      <UniqueIdentifier>{f56e73c0-6706-45d4-b74f-8858e33fe2df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logg.h">
+      <Filter>头文件\utils\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="iofile.h">
+      <Filter>头文件\utils\ioFile</Filter>
+    </ClInclude>
+    <ClInclude Include="ringBuffer.h">
+      <Filter>头文件\utils\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="threadPool.h">
+      <Filter>头文件\utils\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="stringOp.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="errorCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonExplorer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deviceExplorer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dataExplorer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="device.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rwLock.h">
+      <Filter>头文件\utils\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="register.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="logg.cpp">
+      <Filter>源文件\utils\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="iofile.cpp">
+      <Filter>源文件\utils\ioFile</Filter>
+    </ClCompile>
+    <ClCompile Include="TEST_main.cpp">
+      <Filter>源文件\TEST</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonExplorer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TEST_jsonExplorer.cpp">
+      <Filter>源文件\TEST</Filter>
+    </ClCompile>
+    <ClCompile Include="deviceExplorer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dataExplorer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TEST_dataExplorer.cpp">
+      <Filter>源文件\TEST</Filter>
+    </ClCompile>
+    <ClCompile Include="TEST_callback.cpp">
+      <Filter>源文件\TEST</Filter>
+    </ClCompile>
+    <ClCompile Include="device.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TEST_register.cpp">
+      <Filter>源文件\TEST</Filter>
+    </ClCompile>
+    <ClCompile Include="TEST_writejson.cpp">
+      <Filter>源文件\TEST</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

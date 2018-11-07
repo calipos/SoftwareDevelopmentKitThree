@@ -1,0 +1,9 @@
+[{
+	"ip": "192.168.2.90",
+	"port":5000,
+	"friendName": "三年级二班1号",
+	"userName":"",
+	"passWord":"",
+	"extraConfigFile":"",
+	"tips":"extraConfig包括fpswidthheight等，null等于默认"
+}]
